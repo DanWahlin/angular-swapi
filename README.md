@@ -1,6 +1,9 @@
-# CustomerProject
+# Customer Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
+
+It shows a simple example of using components and modules along 
+with HttpClient to call into the Star Wars API at https://swapi.co.
 
 ## Development server
 
