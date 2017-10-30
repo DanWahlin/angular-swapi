@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ICustomer } from '../interfaces';
 
 @Component({
   selector: 'cm-customers-list',
@@ -7,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CustomersListComponent implements OnInit {
 
-  @Input() customers: any[];
+  @Input() customers: ICustomer[];
 
   constructor() { }
 
